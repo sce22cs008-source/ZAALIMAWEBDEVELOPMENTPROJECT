@@ -33,7 +33,7 @@ const Pricing = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center mb-20">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 1, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
           >
             <span className="premium-badge mb-6">Investment in Your Future</span>
@@ -41,7 +41,7 @@ const Pricing = () => {
               Simple, <span className="neon-text">Transparent</span> Pricing
             </h1>
             <p className="text-slate-400 text-xl max-w-2xl mx-auto leading-relaxed">
-              Unlock the full power of AI to accelerate your career growth. No hidden fees, cancel anytime.
+              give me the correct of AI to accelerate your career growth. No hidden fees, cancel anytime.
             </p>
           </motion.div>
 
